@@ -7,7 +7,7 @@ export default function AboutMe() {
         <div className='container'>
             <div className="row justify-content-around">
                 <h2 className='mb-5'>À propos de moi</h2>
-                <div className='col-4 text-start'>
+                <div id='containerPhoto' className='col-12 col-xl-4'>
                     <img id='photoProfil' src={Me} alt="" />
                     <img id='photoProfilHover' src={MeHover} alt="" />
                     <p className='mt-3 fw-bold'>Matias GOMEZ
@@ -15,7 +15,7 @@ export default function AboutMe() {
                         26 ans
                     </p>
                 </div>
-                <div className='col-8'>
+                <div id='containerTextAbout' className='col-12 col-xl-8'>
                     <p>
                         Je suis <b> développeur web full-stack </b>, passionné par l'informatique et la technologie depuis mon enfance. Après une première carrière, j’ai décidé de me reconvertir dans le développement pour transformer cette passion en métier. Durant trois ans d'alternance, j'ai eu la chance de travailler sur des projets enrichissants pour deux centres de formation. J'ai développé des applications web permettant de gérer des aspects clés de la formation, comme la signature des feuilles d’émargement, le référentiel de compétences, le suivi des heures des étudiants, la génération de documents, et le planning des utilisateurs. Cette expérience m’a permis de gagner en autonomie et en confiance en mes compétences, tout en me donnant l’occasion de faire preuve d’initiative et de créativité.
                     </p>
