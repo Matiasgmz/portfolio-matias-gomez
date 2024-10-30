@@ -10,7 +10,7 @@ body {
 
 #photoProfilHover {
   width: 21rem;
-  transition: opacity 0.3s ease; /* durée de la transition */
+  transition: opacity 0.3s ease; 
   opacity: 0;
   position: relative;
 }
@@ -27,6 +27,15 @@ body {
   opacity: 1;
 }
 
+@media (max-width: 1400px) {
+  #containerHeader {
+    background-image: url(assets/img/background-header.jpg);
+    background-size: cover;
+    background-position: 40%;
+    height: 70vh;
+  }
+}
+
 @media (max-width: 1200px) {
   #photoProfil {
     max-width: 21rem;
@@ -36,6 +45,12 @@ body {
   }
   #containerPhoto {
     text-align: center;
+  }
+  #containerHeader {
+    background-image: url(assets/img/background-header.jpg);
+    background-size: cover;
+    background-position: 45%;
+    height: 70vh;
   }
 }
 
@@ -49,6 +64,12 @@ body {
   #containerPhoto {
     text-align: center;
   }
+  #containerHeader {
+    background-image: url(assets/img/background-header.jpg);
+    background-size: cover;
+    background-position: 54%;
+    height: 70vh;
+  }
 }
 
 @media (max-width: 480px) {
@@ -60,6 +81,12 @@ body {
   }
   #containerPhoto {
     text-align: center;
+  }
+  #containerHeader {
+    background-image: url(assets/img/background-header.jpg);
+    background-size: cover;
+    background-position: 53%;
+    height: 40vh;
   }
 }
 
@@ -75,5 +102,9 @@ body {
 }
 
 #containerTextAbout {
+  text-align: justify;
+}
+
+.descriptionCard {
   text-align: justify;
 }
