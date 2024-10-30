@@ -16,7 +16,6 @@ export default function CarrouselCardProjet(image) {
         <div className="slider-container">
             <Slider {...settings}>
                 {imageArray.map((img, index) => (
-                    console.log(img),
                     <div key={index}>
                         <img className='w-100' src={`${process.env.PUBLIC_URL}/${img}`} alt="" />
                     </div>

@@ -108,3 +108,7 @@ body {
 .descriptionCard {
   text-align: justify;
 }
+
+.cardProject {
+  min-height: 650px;
+}
