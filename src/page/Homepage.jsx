@@ -13,11 +13,13 @@ export default function Homepage() {
             <section className='mt-5'>
                 <AboutMe />
             </section>
+            <hr />
 
-            <section className='mt-5'>
+            <section className='my-5'>
                 <ListCardProject />
             </section>
 
+            <hr />
             <section className='mt-5'>
                 <Hobbies />
             </section>

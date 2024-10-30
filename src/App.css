@@ -15,6 +15,10 @@ body {
   position: relative;
 }
 
+#containerPhoto {
+  text-align: start;
+}
+
 #photoProfil:hover {
   opacity: 0;
 }
@@ -30,23 +34,32 @@ body {
   #photoProfilHover {
     max-width: 21rem;
   }
+  #containerPhoto {
+    text-align: center;
+  }
 }
 
 @media (max-width: 768px) {
   #photoProfil {
-    max-width: 10rem;
+    max-width: 15rem;
   }
   #photoProfilHover {
-    max-width: 10rem;
+    max-width: 15rem;
+  }
+  #containerPhoto {
+    text-align: center;
   }
 }
 
 @media (max-width: 480px) {
   #photoProfil {
-    max-width: 8rem;
+    max-width: 15rem;
   }
   #photoProfilHover {
-    max-width: 8rem;
+    max-width: 15rem;
+  }
+  #containerPhoto {
+    text-align: center;
   }
 }
 
@@ -59,4 +72,8 @@ body {
   align-items: center;
   color: white;
   height: 70vh;
+}
+
+#containerTextAbout {
+  text-align: justify;
 }
