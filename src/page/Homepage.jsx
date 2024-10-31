@@ -3,6 +3,7 @@ import ListCardProject from '../components/ListCardProject'
 import AboutMe from '../components/AboutMe'
 import Hobbies from '../components/Hobbies'
 import Title from '../components/Title'
+import Skills from '../components/Skills'
 
 export default function Homepage() {
     return (
@@ -15,13 +16,18 @@ export default function Homepage() {
             </section>
             <hr />
 
-            <section className='my-5'>
+            <section id='listCardProject' className='p-0'>
                 <ListCardProject />
             </section>
 
             <hr />
             <section className='mt-5'>
                 <Hobbies />
+            </section>
+
+            <hr />
+            <section className='mt-5'>
+                <Skills />  
             </section>
         </>
     )

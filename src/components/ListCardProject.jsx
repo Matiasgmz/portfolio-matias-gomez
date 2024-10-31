@@ -105,8 +105,8 @@ function ListCardProject() {
     return (
         <div className="container">
             <div className="row">
-                <h2>Mes projets</h2>
-                <div className="slider-container">
+                <h2 className="mt-5">Mes projets</h2>
+                <div className="slider-container mb-5">
                     <Slider {...settings}>
                         {dataCardProject.map((card, index) => (
                             <div key={index}>
