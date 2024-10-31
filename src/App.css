@@ -106,7 +106,9 @@ body {
 }
 
 .descriptionCard {
+  overflow-y: auto;
   text-align: justify;
+  max-height: 150px;
 }
 
 .cardProject {
