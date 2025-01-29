@@ -20,7 +20,7 @@ export default function Homepage() {
                 <ListCardProject />
             </section>
 
-            <hr />
+            {/* <hr />
             <section className='mt-5'>
                 <Hobbies />
             </section>
@@ -28,7 +28,7 @@ export default function Homepage() {
             <hr />
             <section className='mt-5'>
                 <Skills />  
-            </section>
+            </section> */}
         </>
     )
 }
