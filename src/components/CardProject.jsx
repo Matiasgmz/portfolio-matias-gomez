@@ -9,7 +9,7 @@ export default function CardProject({ image, title, description, link, techno })
   const arrayTechno = Object.values(techno);
 
   return (
-    <Card className='rounded-0 m-2 cardProject'>
+    <Card className='m-2 cardProject'>
       <CarrouselCardProjet image={image} />
       <Card.Body>
         <Card.Title className='text-center my-4'>{title}</Card.Title>

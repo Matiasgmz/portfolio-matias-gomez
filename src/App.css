@@ -6,6 +6,7 @@ body {
 #photoProfil {
   width: 21rem;
   position: absolute;
+  border-radius: 16px 16px 16px 16px;
 }
 
 #photoProfilHover {
@@ -13,6 +14,7 @@ body {
   transition: opacity 0.3s ease;
   opacity: 0;
   position: relative;
+  border-radius: 16px 16px 16px 16px;
 }
 
 #containerPhoto {
@@ -113,6 +115,7 @@ body {
 
 .cardProject {
   min-height: 650px;
+  border-radius: 16px 16px 16px 16px;
 }
 
 #listCardProject {
@@ -121,4 +124,8 @@ body {
 
 hr {
   margin: 0;
+}
+
+.image-cardproject {
+  border-radius: 16px 16px 16px 16px;
 }

@@ -17,7 +17,7 @@ export default function CarrouselCardProjet(image) {
             <Slider {...settings}>
                 {imageArray.map((img, index) => (
                     <div key={index}>
-                        <img className='w-100' src={`${process.env.PUBLIC_URL}/${img}`} alt="" />
+                        <img className='w-100 image-cardproject' src={`${process.env.PUBLIC_URL}/${img}`} alt="" />
                     </div>
                 ))}
             </Slider>
