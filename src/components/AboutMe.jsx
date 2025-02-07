@@ -3,7 +3,7 @@ import Me from '../assets/img/photo_profil.jpg';
 import MeHover from '../assets/img/photo_profil_hover.jpg';
 
 export default function AboutMe() {
-    const birthDate = new Date('1997-12-16'); 
+    const birthDate = new Date('1997-12-16');
 
     const calculateAge = (birthDate) => {
         const today = new Date();
@@ -26,6 +26,10 @@ export default function AboutMe() {
                     <p className='mt-3 fw-bold'>Matias GOMEZ
                         <br />
                         {calculateAge(birthDate)} ans
+                        <br />
+                        <a href="tel: 07 50 45 53 64">07 50 45 53 64</a>
+                        <br />
+                        <a href="mailto:matias.gmz@icloud.com">matias.gmz@icloud.com</a> 
                     </p>
                 </div>
                 <div id='containerTextAbout' className='col-12 col-xl-8'>
